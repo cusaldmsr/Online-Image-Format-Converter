@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (format === 'png') {
                     resolve(canvas.toDataURL('image/png'));
                 } else if (format === 'svg') {
-                    // Basic SVG conversion (Note: This is a simple implementation)
                     const svg = `<svg width="${img.width}" height="${img.height}" xmlns="http://www.w3.org/2000/svg">
                         <image href="${imageData}" width="${img.width}" height="${img.height}"/>
                     </svg>`;
