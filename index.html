@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Format Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Image Format Converter</h1>
+        
+        <div class="card p-4">
+            <div class="mb-3">
+                <label for="imageInput" class="form-label">Upload Image</label>
+                <input type="file" class="form-control" id="imageInput" accept="image/*">
+            </div>
+
+            <div class="mb-3">
+                <label for="outputFormat" class="form-label">Select Output Format</label>
+                <select class="form-select" id="outputFormat">
+                    <option value="png">PNG</option>
+                    <option value="jpg">JPG</option>
+                    <option value="jpeg">JPEG</option>
+                    <option value="svg">SVG</option>
+                </select>
+            </div>
+
+            <button class="btn btn-primary mb-3" id="convertBtn" disabled>Convert Image</button>
+
+            <div id="previewContainer" class="d-none">
+                <h5>Preview:</h5>
+                <img id="previewImage" class="img-fluid mb-3" alt="Preview">
+            </div>
+
+            <div id="downloadContainer" class="d-none">
+                <a id="downloadLink" class="btn btn-success">Download Converted Image</a>
+            </div>
+
+            <div id="errorMessage" class="alert alert-danger d-none" role="alert"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
