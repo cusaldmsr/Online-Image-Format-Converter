@@ -56,8 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     async function convertImage(imageData, format) {
+
         return new Promise((resolve, reject) => {
+
             const img = new Image();
+            
             img.onload = () => {
                 const canvas = document.createElement('canvas');
                 canvas.width = img.width;
