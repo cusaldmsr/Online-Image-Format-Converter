@@ -42,7 +42,7 @@ git clone https://github.com/cusaldmsr/Online-Image-Format-Converter.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd image-format-converter
+cd Online-Image-Format-Converter
 ```
 3. Open index.html in a web browser directly, or serve it using a local server:
 4. Then visit http://localhost:8000 in your browser.
