@@ -4,6 +4,16 @@
 <div align="center">
   
 # Image Format Converter
+
+<br>
+
+<p align="center">
+        <img src="https://img.shields.io/github/created-at/cusaldmsr/Online-Image-Format-Converter"/>
+        <img src="https://img.shields.io/github/commit-activity/m/cusaldmsr/Online-Image-Format-Converter"/>
+        <img src="https://img.shields.io/github/forks/cusaldmsr/Online-Image-Format-Converter"/>
+        <img src="https://img.shields.io/github/stars/cusaldmsr/Online-Image-Format-Converter"/>
+        <img src="https://img.shields.io/github/watchers/cusaldmsr/Online-Image-Format-Converter"/>
+</p>
 </div>
 A simple web application that allows users to convert image formats (JPG, PNG, JPEG, SVG) directly in the browser.
 
